@@ -598,14 +598,31 @@ input[type='checkbox'] {
 /*    Header     */
 /*****************/
 .header {
-	position: relative;
+	/* position: relative;
 	padding-top: 7rem;
-	padding-bottom: 9rem;
+	padding-bottom: 9rem; */
 	/* background: linear-gradient(to bottom right,  rgba(1,145,251,1) 83%, rgba(0,212,255,1), 100%), url("../images/header-background.jpg") center center no-repeat; */
     /* background: linear-gradient(270deg, rgba(1,145,251,1) 83%, rgba(0,212,255,1) 100%); */
-    background: linear-gradient(to bottom right, #0191FB, #08F5DA);
+    /* background: linear-gradient(to bottom right, #0191FB, #08F5DA);
 	background-size: cover;
-	text-align: center;
+	text-align: center; */
+
+    background: url('../images/header/header-background.jpg') no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #000;
+    opacity: 0.8;
 }
 
 .header .countdown {
