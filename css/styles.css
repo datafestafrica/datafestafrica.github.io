@@ -12,7 +12,7 @@ Table Of Contents:
 - Agenda
 - Speakers
 - Speaker Lightboxes
-- Questions
+- Merch
 - Sponsors
 - Contact
 - Footer
@@ -716,6 +716,15 @@ input[type='checkbox'] {
 	margin-left: 0.5rem;
 }
 
+/***********************/
+/*     Social          */
+/***********************/
+.social-video {
+	text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 
 /***********************/
 /*     Description     */
@@ -1131,6 +1140,7 @@ input[type='checkbox'] {
 /*		Tweets			*/
 /*******************/
 .tweets__container {
+	margin-top: 1em;
 	padding: 2rem 1rem;
 	border: 1px solid #0193fb60;
 	border-radius: 10px;
@@ -1297,8 +1307,9 @@ a:hover.back-to-top {
 /***********************/
 .travel-video {
 	text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
 }
-
 
 /***********************/
 /*     Extra Pages     */
@@ -1771,7 +1782,7 @@ a:hover.back-to-top {
 	/* end of speaker lightboxes */
 
 
-	/* Questions */
+	/* merch */
 	.basic-2 .list-unstyled.first {
 		margin-right: 1rem;
 	}
@@ -1780,7 +1791,7 @@ a:hover.back-to-top {
 		margin-left: 1rem;
 	}
 
-	/* end of questions */
+	/* end of merch */
 
 
 	/* Contact */
