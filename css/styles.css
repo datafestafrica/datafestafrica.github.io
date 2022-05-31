@@ -694,26 +694,40 @@ input[type='checkbox'] {
 /************************/
 /*     Registration     */
 /************************/
-.form-1 {
-	padding-top: 6rem;
+.registration-1 {
+	padding-top: 8rem;
 	padding-bottom: 7.25rem;
 }
 
-.form-1 .text-container {
+.registration-1 .text-container {
 	margin-bottom: 4rem;
 }
 
-.form-1 h2 {
+.registration-1 h2 {
 	margin-bottom: 1.25rem;
 }
 
-.form-1 .list-unstyled .fas {
+.registration-1 .list-unstyled .fas {
 	font-size: 0.375rem;
 	line-height: 1.625rem;
 }
 
-.form-1 .list-unstyled .media-body {
+.registration-1 .list-unstyled .media-body {
 	margin-left: 0.5rem;
+}
+
+.a-button {
+	display: inline-block;
+	width: 100%;
+	height: 3.25rem;
+	border: 1px solid #0191FB;
+	border-radius: 32px;
+	background-color: #0191FB;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 0.875rem;	
+	cursor: pointer;
+	transition: all 0.2s;
 }
 
 /***********************/
@@ -1547,7 +1561,7 @@ a:hover.back-to-top {
 
 
 	/* Registration */
-	.form-1 .text-container {
+	.registration-1 .text-container {
 		margin-bottom: 0;
 	}
 
@@ -1669,12 +1683,12 @@ a:hover.back-to-top {
 
 
 	/* Registration */
-	.form-1 .text-container {
+	.registration-1 .text-container {
 		margin-top: 1.375rem;
 		margin-right: 2.5rem;
 	}
 
-	.form-1 .form-container {
+	.registration-1 .form-container {
 		margin-left: 2.5rem;
 	}
 
